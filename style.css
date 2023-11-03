@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.418)) , url(./images/login-bg.jpeg);
+    height: 100vh;
+    
+}
+
+.login-top{
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.login-top img{
+    width: 200px;
+}
+
+
+.login-box{
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 430px;
+    height: 630px;
+    border-radius: 5px ;
+    padding: 50px;
+}
+
+.small-text{
+    font-size: 13px;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+.fbp{
+    cursor: pointer;
+}
+
+/* .textlink{
+    text-decoration: none;
+    color: white;
+} */
+
+.link-btn{
+    border-radius: 5px;
+    width: 100%;
+   
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link-btn:hover{
+    background-color: #8d170e;
+    color: white;
+}
